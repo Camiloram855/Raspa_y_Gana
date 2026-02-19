@@ -63,3 +63,4 @@ export const getUserPrize = () => {
   const prize = localStorage.getItem('scratchCardPrize');
   return prize ? JSON.parse(prize) : null;
 };
+ 
